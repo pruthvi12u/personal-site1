@@ -1,0 +1,151 @@
+body{
+    background-color: #d9f9fa;
+    
+}
+
+hr{
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width:5px;
+    height: 2px;
+    width: 5%;
+    
+}
+
+#img1{
+
+    
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+   
+    
+    
+}
+
+img:hover{
+    background-color: rgb(197, 197, 193);
+}
+
+h3{
+    color: #05aaaa;
+}
+
+h1{
+    color: #054763;
+    font-family: "Lucida Handwriting","Vivaldi","schoolbell","cursive","Comic Sans MS","Lucida Console", "Courier New", monospace;
+    
+}
+
+#intro{
+
+    color: #375863;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+#photo{
+    
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#contact{
+
+    text-align: center;
+}
+
+#img2{
+
+    height: 2%;
+    width: 2%;
+    
+}
+
+#left{
+
+    background-color: rgb(217, 249, 250);
+    height: 70%;
+    width: 70%;
+    opacity: 0;
+    animation:fadeInOut 4s infinite;
+}
+
+#right{
+
+    background-color: #d9f9fa;
+    height: 70%;
+    width: 70%;
+    opacity: 0;
+    animation:fadeInOut 4s infinite;
+}
+
+@keyframes fadeInOut{
+
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.menu{
+
+    background-color: #02202e;
+    color:#e9eef3;
+    height: 35px;
+    width: 95px;
+    border-radius:7px;
+    z-index: 1;
+    border-style: solid;
+    border-color: rgb(2, 154, 255);
+    border-width: 1px;
+   
+}
+
+.menu:hover{
+
+    border-color:#ff1e00;
+    
+    
+}
+
+
+
+.menu-text{
+
+    
+    margin-top: 12px;
+    margin-left:30px;
+
+}
+
+
+
+#topdiv{
+    
+    display:block;
+    background-color: #02202e;
+    height: 28%;
+    width: 100%;
+    
+}
+
+#back{
+
+    height: 180px;
+    width: 1200px;
+    margin-left:40px;
+    margin-top: 5px;
+}
+
+
